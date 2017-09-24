@@ -1,0 +1,83 @@
+body {
+	background-image: url(../images/GoT_web.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #231f20;
+	font-family: 'Asap', sans-serif;
+	color: #fff;
+}
+
+main {
+	margin-top: 5%;
+}
+
+.container {
+	background-color: rgba(208, 96, 33, .9);
+}
+
+.footer {
+	margin-bottom: 5%;
+}
+
+hr {
+	border: 1px solid #dadada;
+}
+
+h1 {
+	font-size: 500%;
+	font-family: 'Francois One', sans-serif;
+}
+
+h2 {
+	color: #333;
+	font-style: bold;
+}
+
+strong {
+	color: #dadada;
+}
+
+footer {
+	font-size: 150%;
+	font-style: bold;
+}
+
+a {
+	color: #fff;
+}
+
+a:visited {
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #dadada;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #72a4b2;
+	border-color: #72a4b2;
+}
+
+.btn-primary:hover {
+	background-color: #83a9b4;
+	border-color: #83a9b4;
+}
+
+.chosen-container ul.chosen-results li.highlighted {
+  background-color: #72a4b2;
+  background-image: none;
+}
+
+.modal strong {
+	color: #d06021;
+	font-family: 'Francois One', sans-serif;
+}
+
+.modal-body{
+	background-image: url(../images/GoT_modal.jpg);
+	background-size: cover;
+	background-position: center;
+}

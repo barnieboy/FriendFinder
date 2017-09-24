@@ -1,0 +1,63 @@
+
+body {
+	background-image: url(../images/GoT_web.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #231f20;
+	font-family: 'Asap', sans-serif;
+	color: #fff;
+}
+
+.jumbotron {
+	margin-top: 5%;
+	background-color: rgba(208, 96, 33, .9);
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-family: 'Francois One', sans-serif;
+	font-size: 600%;
+}
+
+.jumbotron>hr {
+	border: 1px solid #dadada;
+}
+
+h2 {
+	color: #fff;
+	font-style: bold;
+}
+
+footer {
+	font-size: 150%;
+	font-style: bold;
+}
+
+a {
+	color: #fff;
+}
+
+a:visited {
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #dadada;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #72a4b2;
+	border-color: #72a4b2;
+}
+
+.btn-primary:hover {
+	background-color: #83a9b4;
+	border-color: #83a9b4;
+}
+
+.button-space {
+	margin-top: 10px;
+	margin-right: 10px;
+}
