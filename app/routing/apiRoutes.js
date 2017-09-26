@@ -16,12 +16,6 @@ module.exports = function(app){
 
 	});
 
-	app.get('/api/characters', function (req, res) {
-
-		characters.getCurrentCharList()
-			.then( (allCharacters)=> res.json(allCharacters) )
-			.catch( (err)=> {if (err) console.log(err)} );
-	});
 
 	app.post('/api/characters', function (req, res){
 
